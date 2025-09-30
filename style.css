@@ -1,3 +1,37 @@
-h1 {
-    color: chocolate;
+body {
+    background-color: black;
+    color: rgb(134, 134, 134);
+}
+
+.game {
+    display: none;
+    grid-template-columns: repeat(3, minmax(64px, 100px));
+    grid-template-rows: repeat(3, minmax(64px, 100px));
+    gap: 4px;
+}
+
+.game > button {
+    all: unset;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 20px;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.game > button:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.status {
+    margin-top: 8px;
+    color: white;
+
+}
+
+.controls {
+    margin-top: 8px;
 }

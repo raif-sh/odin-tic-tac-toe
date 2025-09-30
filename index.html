@@ -8,6 +8,36 @@
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
+    <div class="game">
+        <button value="0" data-id="0"></button>
+        <button value="0" data-id="1"></button>
+        <button value="0" data-id="2"></button>
+        <button value="0" data-id="3"></button>
+        <button value="0" data-id="4"></button>
+        <button value="0" data-id="5"></button>
+        <button value="0" data-id="6"></button>
+        <button value="0" data-id="7"></button>
+        <button value="0" data-id="8"></button>
+    </div>
+    <div class="status"></div>
+    <div>
+        <form action="#">
+            <div class="player-name-inputs">
+                <p>
+                    <label for="playerOne">Player X: </label>
+                    <input type="text" name="playerOne" id="playerOne">
+                </p>
+                <p>
+                    <label for="playerTwo">Player O: </label>
+                    <input type="text" name="playerTwo" id="playerTwo">
+                </p>
+            </div>
+            <div class="controls">
+                <button id="start">Start New Game</button>
+                <button id="reset" hidden>Restart Game</button>
+            </div>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
